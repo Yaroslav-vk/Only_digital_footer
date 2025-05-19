@@ -1247,6 +1247,6 @@
     }]
   }],
   "suites": [],
-  "urls": ["https://www.onliner.by/", "https://www.dns-shop.ru/", "https://only.digital/"],
+  "urls": ["https://only.digital/"],
   "plugins": []
 }
