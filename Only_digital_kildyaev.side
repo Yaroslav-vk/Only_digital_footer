@@ -1,0 +1,1252 @@
+{
+  "id": "57b13470-94e4-4e68-a449-470f92ca959d",
+  "version": "2.0",
+  "name": "Only_digital_kildyaev",
+  "url": "https://only.digital/",
+  "tests": [{
+    "id": "c2f1b53d-f0e1-4fe0-8e8f-276dca3c000a",
+    "name": "[TC-1] Footer for Main",
+    "commands": [{
+      "id": "5e1748c0-51fb-44fe-b7c6-2e384c93c37a",
+      "comment": "",
+      "command": "open",
+      "target": "https://only.digital/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80704c29-16b8-44e0-a68d-cbba3a0e2748",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1683x958",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b45eab1-090f-429c-aad1-b67d92e86ae4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div",
+      "targets": [
+        ["css=.Footer_grid__lfZ34", "css:finder"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26abfc16-0883-493e-b22c-7b54ed757db6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/button",
+      "targets": [
+        ["css=.Footer_button__RHd0Q", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4341ec3f-ab75-49ee-bb0a-8102c6c7f7aa",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=be", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5081767-02db-4ec9-a1fa-00b5c078fffc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]",
+      "targets": [
+        ["linkText=dp", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "652de8f6-12cd-42eb-a883-0c7d602fb69a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]",
+      "targets": [
+        ["linkText=tg", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e9d7628-1ec6-4a70-8d10-4ecc1ab8a793",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=vk", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12b02fa8-96e2-4624-8e93-76024210d75c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p[2]",
+      "targets": [
+        ["css=.Footer_year__nyNCc", "css:finder"],
+        ["xpath=//footer/div/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cce3116-1261-4bee-a559-9673fed3d6af",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p",
+      "targets": [
+        ["css=.Footer_text___ATim", "css:finder"],
+        ["xpath=//footer/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "535d5ca9-6b1c-45c5-babc-fff70e807dd9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]",
+      "targets": [
+        ["linkText=hello@only.digital", "linkText"],
+        ["css=.text1:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'hello@only.digital')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f09a4e41-ed28-4d0c-a1e9-d6214c598723",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]",
+      "targets": [
+        ["linkText=+7 (495) 740 99 79", "linkText"],
+        ["css=.Footer_contacts__s7c9v > .TextLink_link__8n_Xi:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'tel:+7 (495) 740 99 79')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98ef7087-d53b-4161-a74f-1d34ccb8be4e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[2]/p",
+      "targets": [
+        ["css=.Footer_telegram__Y0DSn > .captions", "css:finder"],
+        ["xpath=//footer/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "223374da-6b1d-4007-b806-5bd0ae5d0471",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=@onlydigitalagency", "linkText"],
+        ["css=.Footer_telegram__Y0DSn > .TextLink_link__8n_Xi", "css:finder"],
+        ["xpath=(//a[contains(text(),'@onlydigitalagency')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f07ce186-600e-42b5-b59c-63b530e1219a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b3bdf00-d6f2-4c83-8dfa-bcc2a9919f46",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button[2]",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f79c678a-5dcc-455c-9a96-4848870b4ebe",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[4]/p",
+      "targets": [
+        ["css=.Footer_documents___mRvU > .captions", "css:finder"],
+        ["xpath=//footer/div/div[4]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f48c9903-1460-4a69-a495-470f469fedf9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Footer_logo__2QEhf",
+      "targets": [
+        ["css=.Footer_logo__2QEhf", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "efdb76d5-0112-410e-88fa-08b55ce06caf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[2]/span",
+      "targets": [
+        ["css=.line", "css:finder"],
+        ["xpath=//footer/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b512239e-f030-4443-9db7-c98045867fe9",
+    "name": "[TC-3] Footer for About us",
+    "commands": [{
+      "id": "65926648-ec01-46ca-9f60-6e29a09355e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://only.digital/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e24b475-d61a-4307-89db-827a4ad1c4ae",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/en/company')]",
+      "targets": [
+        ["css=.Header_linkItem__AqdrQ:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'About us')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/company')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c409b658-5647-4b8f-9d64-3d85dc443af4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div",
+      "targets": [
+        ["css=.Footer_grid__lfZ34", "css:finder"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a207f0d-0a0a-4922-950b-feff71dae776",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/button",
+      "targets": [
+        ["css=.Footer_button__RHd0Q", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9abc619-9698-4b36-9d09-d5f1854530aa",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=be", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "534f0f28-cd0a-42a7-8e8d-9692d97d31e3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]",
+      "targets": [
+        ["linkText=dp", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00fa053b-3c02-41f0-8879-213a15e6bcd3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]",
+      "targets": [
+        ["linkText=tg", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d810aed8-4ca6-46d8-9b4b-7fc280947069",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=vk", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f05160-1852-4c92-a79c-e0dae4288ba0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p[2]",
+      "targets": [
+        ["css=.Footer_year__nyNCc", "css:finder"],
+        ["xpath=//footer/div/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7eafae0-daa8-46e4-98cf-3743ac44e731",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p",
+      "targets": [
+        ["css=.Footer_text___ATim", "css:finder"],
+        ["xpath=//footer/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db5812d0-b3e7-4c87-826e-a80d30b6b660",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]",
+      "targets": [
+        ["linkText=hello@only.digital", "linkText"],
+        ["css=.text1:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'hello@only.digital')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9891d2f-6d5a-4248-829c-2582ecb7bf79",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]",
+      "targets": [
+        ["linkText=+7 (495) 740 99 79", "linkText"],
+        ["css=.Footer_contacts__s7c9v > .TextLink_link__8n_Xi:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'tel:+7 (495) 740 99 79')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a1367f-b4d5-4409-a65d-29f2cd419c14",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[2]/p",
+      "targets": [
+        ["css=.Footer_telegram__Y0DSn > .captions", "css:finder"],
+        ["xpath=//footer/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3274d670-b110-4ad5-976a-5b07cd42cf61",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=@onlydigitalagency", "linkText"],
+        ["css=.Footer_telegram__Y0DSn > .TextLink_link__8n_Xi", "css:finder"],
+        ["xpath=(//a[contains(text(),'@onlydigitalagency')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c669563d-4976-4af6-91a9-3d4be6592f16",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "503ba4c7-ecd6-4691-8b84-3dbd4a38eb07",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button[2]",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1678d790-14fd-4642-a0dd-1321e9993d84",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[4]/p",
+      "targets": [
+        ["css=.Footer_documents___mRvU > .captions", "css:finder"],
+        ["xpath=//footer/div/div[4]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0c9b75-e5a7-4f91-89e6-2e1e9073ab55",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Footer_logo__2QEhf",
+      "targets": [
+        ["css=.Footer_logo__2QEhf", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b6ea041-732d-404b-b1c8-3e93cf149f16",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[2]/span",
+      "targets": [
+        ["css=.line", "css:finder"],
+        ["xpath=//footer/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b729e048-1990-46e0-98a3-5816e3e7e318",
+    "name": "[TC-4] Footer for What we do",
+    "commands": [{
+      "id": "b6e78702-3988-4c7b-958a-37010c076723",
+      "comment": "",
+      "command": "open",
+      "target": "https://only.digital/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b20093bf-3e48-4528-ab62-2c7c678c7580",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/en/fields')]",
+      "targets": [
+        ["css=.Header_linkItem__AqdrQ:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'What we do')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/fields')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fdbe71f-731b-43a4-b38f-f49d3c83cce2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div",
+      "targets": [
+        ["css=.Footer_grid__lfZ34", "css:finder"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af2b3bc5-e9ad-49d4-a4e7-7759eed0b6c2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/button",
+      "targets": [
+        ["css=.Footer_button__RHd0Q", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfba4d25-f2d1-4a88-bf9b-fb4dac97864c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=be", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc87cd9-4e4e-40d7-8f64-02fcc1d22995",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]",
+      "targets": [
+        ["linkText=dp", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "190c4e76-30b4-42c9-a0fa-82dc5bbf984c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]",
+      "targets": [
+        ["linkText=tg", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "745e3c49-031f-41cd-9074-87379d50b75f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=vk", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a265876-bbea-4a33-a255-d659cae8da03",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p[2]",
+      "targets": [
+        ["css=.Footer_year__nyNCc", "css:finder"],
+        ["xpath=//footer/div/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95acfc6a-c172-4bfe-9e75-7be2446959d1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p",
+      "targets": [
+        ["css=.Footer_text___ATim", "css:finder"],
+        ["xpath=//footer/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c184c132-9498-4b65-aee5-3ab0ea367254",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]",
+      "targets": [
+        ["linkText=hello@only.digital", "linkText"],
+        ["css=.text1:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'hello@only.digital')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7e782d0-f8e1-4028-8732-b434109e0fdb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]",
+      "targets": [
+        ["linkText=+7 (495) 740 99 79", "linkText"],
+        ["css=.Footer_contacts__s7c9v > .TextLink_link__8n_Xi:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'tel:+7 (495) 740 99 79')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02f0e1f3-f2ad-4cd1-a6f1-78b1fbde7849",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[2]/p",
+      "targets": [
+        ["css=.Footer_telegram__Y0DSn > .captions", "css:finder"],
+        ["xpath=//footer/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f68da56e-3d89-4e53-8ea8-4abd09e8224e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=@onlydigitalagency", "linkText"],
+        ["css=.Footer_telegram__Y0DSn > .TextLink_link__8n_Xi", "css:finder"],
+        ["xpath=(//a[contains(text(),'@onlydigitalagency')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "209e4a7b-83d3-4c20-89e9-6bdd6f7053d2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86d34deb-3e82-450c-b6d3-78ff3227dbbd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button[2]",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec33ef4a-b3d1-4a60-b40c-a47d5b9c2c5f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[4]/p",
+      "targets": [
+        ["css=.Footer_documents___mRvU > .captions", "css:finder"],
+        ["xpath=//footer/div/div[4]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f4a1f28-9bdd-47ab-851b-436447f0c1b8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Footer_logo__2QEhf",
+      "targets": [
+        ["css=.Footer_logo__2QEhf", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "31909ddb-20a2-4154-ba3b-7d4b75e2a4ce",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[2]/span",
+      "targets": [
+        ["css=.line", "css:finder"],
+        ["xpath=//footer/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f7fa7792-111c-4178-8263-60ddc3fc4d42",
+    "name": "[TC-5] Footer for Career",
+    "commands": [{
+      "id": "104df2f6-4a77-424c-8505-8801573830e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://only.digital/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d313b4cc-e83a-497a-a157-046fc5de716e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/en/job')]",
+      "targets": [
+        ["css=.Header_linkItem__AqdrQ:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Career')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/job')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4491c62a-fb13-434f-8d1b-7a57a6cbd2d9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer",
+      "targets": [
+        ["css=.FooterDark_root__78jjk", "css:finder"],
+        ["xpath=//footer", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abef44ff-462b-4b57-9448-69575a678898",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=be", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc3517a0-d6e9-444a-8463-4ab964333230",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]",
+      "targets": [
+        ["linkText=dp", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]", "xpath:href"],
+        ["xpath=//footer/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b4f237e-b53b-4a38-9bec-24ab1a450e1d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]",
+      "targets": [
+        ["linkText=tg", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a33d7956-ebf7-4617-872f-c7321f0bdcb2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=vk", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2292a806-84e7-4248-8b35-d21e1510c143",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[3]/p",
+      "targets": [
+        ["css=.FooterDark_copyrightsWrapper__xRPf8 > .h4", "css:finder"],
+        ["xpath=//footer/div[3]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ccadcbe-272b-454d-874f-d76cbb297630",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[3]/div/span",
+      "targets": [
+        ["css=.copyrightsBig > .line", "css:finder"],
+        ["xpath=//footer/div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "16c73ae4-e7db-4b8c-b3f6-6745f510de33",
+    "name": "[TC-6] Footer for Blog",
+    "commands": [{
+      "id": "47235523-95e8-4752-ad1a-d1b8daccffd2",
+      "comment": "",
+      "command": "open",
+      "target": "https://only.digital/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fa349f5-92b9-4f25-99e0-48dd8c59dcd7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/en/blog')]",
+      "targets": [
+        ["css=.Header_linkItem__AqdrQ:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/blog')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46bc9d22-3145-4ec8-a87e-2f3022b69aac",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer",
+      "targets": [
+        ["css=.Footer_root___6Q28", "css:finder"],
+        ["xpath=//footer", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c74c5fa-0381-4f34-a308-098c27f9a47c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//section/div/div/button",
+      "targets": [
+        ["css=.StartProjectButton_root__jB_Lv:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee7988fb-553c-42f9-b36e-e6fc7e87c76e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=be", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28c3499c-5252-4d83-ba4a-56dca501f157",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]",
+      "targets": [
+        ["linkText=dp", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a25fc772-68af-48f5-9a6c-7d6e78043b5f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]",
+      "targets": [
+        ["linkText=tg", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f10b27-4f4c-427a-87cf-e428626d51eb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=vk", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c758cbe1-5870-4675-bb3a-ed9c10ab8edd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p[2]",
+      "targets": [
+        ["css=.Footer_year__nyNCc", "css:finder"],
+        ["xpath=//footer/div/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c6af731-0f64-4b2d-b1c5-e6ceed93b10a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p",
+      "targets": [
+        ["css=.Footer_text___ATim", "css:finder"],
+        ["xpath=//footer/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a011222-3395-4c93-9d75-88d3a86505b4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]",
+      "targets": [
+        ["linkText=hello@only.digital", "linkText"],
+        ["css=.text1:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'hello@only.digital')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8cc0a4-64f7-4850-973f-bceeb617e576",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]",
+      "targets": [
+        ["linkText=+7 (495) 740 99 79", "linkText"],
+        ["css=.Footer_contacts__s7c9v > .TextLink_link__8n_Xi:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'tel:+7 (495) 740 99 79')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a48c93-58a3-436a-9cd7-565ef2671b87",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[2]/p",
+      "targets": [
+        ["css=.Footer_telegram__Y0DSn > .captions", "css:finder"],
+        ["xpath=//footer/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e0c0674-985e-4788-950f-469b7d316259",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=@onlydigitalagency", "linkText"],
+        ["css=.Footer_telegram__Y0DSn > .TextLink_link__8n_Xi", "css:finder"],
+        ["xpath=(//a[contains(text(),'@onlydigitalagency')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a16c526-f69a-4162-a57b-5a03a48781cb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0506035-543c-474f-aae9-415dc61ca63a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button[2]",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cd8e395-ff06-4426-a810-b294cfe42fa6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[4]/p",
+      "targets": [
+        ["css=.Footer_documents___mRvU > .captions", "css:finder"],
+        ["xpath=//footer/div/div[4]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6744f5ff-cd84-42a1-a1e9-e2692191e53b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Footer_logo__2QEhf",
+      "targets": [
+        ["css=.Footer_logo__2QEhf", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0eb6616-95a7-4da1-bd8b-bd5ea19d3ab9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[2]/span",
+      "targets": [
+        ["css=.line", "css:finder"],
+        ["xpath=//footer/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4e363e33-da43-41a1-b2cb-308b4f625b39",
+    "name": "[TC-2] Footer for Work",
+    "commands": [{
+      "id": "3e851825-37e0-4d9c-8dd2-c68c390ade7e",
+      "comment": "",
+      "command": "open",
+      "target": "https://only.digital/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd7401e4-e7b3-4e5f-b27f-2b034ca032f8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/en/projects')]",
+      "targets": [
+        ["css=.Header_linkItem__AqdrQ:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Work')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/projects')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79af7028-f42e-497a-be58-52a5de3ad597",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div",
+      "targets": [
+        ["css=.Footer_grid__lfZ34", "css:finder"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9257ec38-1869-4a32-b75e-0f1d5898cf72",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/button",
+      "targets": [
+        ["css=.Footer_button__RHd0Q", "css:finder"],
+        ["xpath=//footer/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1d70ded-8496-40de-b883-1474628152f7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=be", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77baf07d-f3d7-4b0b-861e-8ebba77d8b07",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]",
+      "targets": [
+        ["linkText=dp", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf26d72-4484-4bbe-a314-1625ad1cb368",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]",
+      "targets": [
+        ["linkText=tg", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "628a929e-ac0a-4f7e-b805-e19006ca1542",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=vk", "linkText"],
+        ["css=.Footer_socials__C39yX > .buttons:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51d5aa1-90ad-4558-9af3-8579c432595d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p[2]",
+      "targets": [
+        ["css=.Footer_year__nyNCc", "css:finder"],
+        ["xpath=//footer/div/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a92245a-a8af-4b4e-9e6c-1644b8b930c9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/p",
+      "targets": [
+        ["css=.Footer_text___ATim", "css:finder"],
+        ["xpath=//footer/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdf9e5d6-5032-47c9-9a54-bdbd8753ce11",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]",
+      "targets": [
+        ["linkText=hello@only.digital", "linkText"],
+        ["css=.text1:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'hello@only.digital')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'mailto:hello@only.digital')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48a5e0ca-0141-4ba7-ab1d-ec956dcf9bc8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]",
+      "targets": [
+        ["linkText=+7 (495) 740 99 79", "linkText"],
+        ["css=.Footer_contacts__s7c9v > .TextLink_link__8n_Xi:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'+7 (495) 740 99 79')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'tel:+7 (495) 740 99 79')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd02c838-1695-4d7c-a6a3-ab29abab722c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[2]/p",
+      "targets": [
+        ["css=.Footer_telegram__Y0DSn > .captions", "css:finder"],
+        ["xpath=//footer/div/div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9fc2b3e-d9e5-4011-a140-d0585dbfedd3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=@onlydigitalagency", "linkText"],
+        ["css=.Footer_telegram__Y0DSn > .TextLink_link__8n_Xi", "css:finder"],
+        ["xpath=(//a[contains(text(),'@onlydigitalagency')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b822f78-f99d-487b-ba7f-55c52b892bf5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58686f05-bacb-4e31-a608-c7896d3d4b01",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[4]/div/button[2]",
+      "targets": [
+        ["css=.Footer_documents___mRvU .buttons:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77ec83a0-314c-4fff-a490-bb8fb68be20a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div/div[4]/p",
+      "targets": [
+        ["css=.Footer_documents___mRvU > .captions", "css:finder"],
+        ["xpath=//footer/div/div[4]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3c649e6-4bed-4e75-a80b-7c0a5324fefd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Footer_logo__2QEhf",
+      "targets": [
+        ["css=.Footer_logo__2QEhf", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b008d66-287a-4d88-8d4d-88349c7ce291",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[2]/span",
+      "targets": [
+        ["css=.line", "css:finder"],
+        ["xpath=//footer/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eded06c2-b259-4952-9ba2-3a88c3a66837",
+    "name": "[TC-7] Footer for Contacts",
+    "commands": [{
+      "id": "a53f41a2-2dc4-4197-a0c0-74e25fcac893",
+      "comment": "",
+      "command": "open",
+      "target": "https://only.digital/en",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7055fc2-d071-4052-b192-a2a5e9ef49fe",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/en/contacts')]",
+      "targets": [
+        ["css=.Header_linkItem__AqdrQ:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Contacts')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/en/contacts')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c124641-445f-4a34-999a-376a1f5504b0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer",
+      "targets": [
+        ["css=.FooterDark_root__78jjk", "css:finder"],
+        ["xpath=//footer", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a933ad83-4886-4474-8f02-5c1d6c41c00e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=be", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://www.behance.net/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//footer/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fdf90b4-58bd-4f54-8f5b-1fe7e203154e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]",
+      "targets": [
+        ["linkText=dp", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://dprofile.ru/only')])[2]", "xpath:href"],
+        ["xpath=//footer/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd620e76-28d6-4b5e-b95e-57c5ef75fde7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[2]/a[3]",
+      "targets": [
+        ["linkText=tg", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://t.me/onlycreativedigitalagency')])[3]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ea7fe29-05c3-40ef-8ebd-ec58d4dcf023",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]",
+      "targets": [
+        ["linkText=vk", "linkText"],
+        ["css=.Socials_socialsWrap__DPtp_:nth-child(2) > .buttons:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://vk.com/onlydigitalagency')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43e9ec9d-d941-4ebf-919c-6d59c43aa0d3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[3]/p",
+      "targets": [
+        ["css=.FooterDark_copyrightsWrapper__xRPf8 > .h4", "css:finder"],
+        ["xpath=//footer/div[3]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33fe25b3-b55e-49e2-bf3f-9914e343baae",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//footer/div[3]/div/span",
+      "targets": [
+        ["css=.copyrightsBig > .line", "css:finder"],
+        ["xpath=//footer/div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["https://www.onliner.by/", "https://www.dns-shop.ru/", "https://only.digital/"],
+  "plugins": []
+}
